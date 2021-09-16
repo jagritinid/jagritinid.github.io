@@ -1,0 +1,178 @@
+@import url("fonts/typeface.css");
+/*
+COLOR PELLETE
+=======================
++ Home Page Top Bands Background Colors
+- Communication Design => #EBA607
+- Tx & Appral Design => #C03C2A
+- IT Design => #008F96
+- Industry Design => #EBA607
+- Itern discipline Design => #A11C52
+
+*/
+
+
+/* Reset DOM Elements
+============================================================================ */
+* { margin:0;padding:0 }
+html { height: 100%; margin:0px; padding:0px; position:relative; }
+h1, h2, h3, h4, h5, h6, ul, li, table, tr, th, td, p, span, label, a { margin:0px; padding:0px; text-decoration:none; text-align:left; font-size:inherit; font-weight:normal; line-height:none; list-style:none; }
+
+/* Global
+============================================================================ */
+body { font-family: 'Source Sans Pro', sans-serif; color:#000; box-sizing:border-box; font-size:13px;  }
+.bg-black { background-color:#000; }
+.container { max-width:1140px; padding:0px; /*background-image:url(../images/grid.png);*/ background-repeat:repeat-y; }
+.cmd, .txd, .itd, .idd, .ind { padding:15px 0; }
+.inner-navbar { color:#fff; text-transform:uppercase; font-size:13px;  font-family: 'Source Sans Pro'; font-family: 'Source Sans Pro', sans-serif; font-weight:500; }
+.bg-cmd { background-color:#f49720; }
+.bg-txd { background-color:#8b9729; }
+.bg-itd { background-color:#1d796d; }
+.bg-idd { background-color:#c12f20; }
+.bg-ind { background-color:#775e43; }
+.fac-img img { width:200px; height:auto; }
+.fac-name { font-family: 'Source Sans Pro'; font-size:22px; color:#fff; line-height:150px; }
+.jumbotron { background-color:#000; }
+.navbar-disciplines a { padding:10px 5px; margin-left:10px; font-size:14px; text-transform:uppercase; display:inline-block; color:#fff; font-family: 'Source Sans Pro'; font-weight:normal; }
+.navbar-disciplines a:nth-child(1) { margin-left:0px; }
+.d-active { font-family: 'Source Sans Pro' !important; font-weight:900 !important; }
+
+.ml5 { margin-left:5px; }
+.ml35 { margin-left:35px; }
+.mt50 { margin-top:75px; }
+/* Home Page */
+
+/* Home Page
+============================================================= */
+.home h3 { font-family: 'Source Sans Pro'; letter-spacing:2px; font-size:14px; text-transform:uppercase; margin-top:60px; font-weight:900; }
+.message h3 { font-family: 'Source Sans Pro'; font-size:32px; color:#906; }
+.message, .message p { font-size:15px; margin-top:10px; font-family:Georgia, "Times New Roman", Times, serif; }
+.message p:nth-child(1) { margin-top:20px; }
+.quote { color:#6D2772; font-size:28px; font-family: 'Source Sans Pro'; font-weight:900; font-style:italic; line-height:30px; }
+.message-from { bottom:0px; color:#191919; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; }
+.message-from p:nth-child(1) { font-weight:bold; margin-top:20px; }
+.yd img { width:20%; height:auto;  }
+.nid img { width:20%; height:auto; }
+
+/* Project Detail Page
+============================================================= */
+.project-name { border-bottom:5px solid #EBA607; width:80%; }
+.student-detail { color:#fff; padding:30px 0; padding-left:100px; }
+.student-detail h3 { color:#EBA607; font-size:28px; font-family: 'Source Sans Pro'; font-weight:900; padding-right:30px; line-height:32px; }
+.project-detail { color:#fff; }
+.project-detail h3 { font-size:28px; margin:0px; padding:0px; color:#fff; font-family: 'Source Sans Pro'; }
+
+.project p { margin-top:20px; font-size:14px; line-height:20px; }
+.project img { margin-top:20px; }
+.projects h3 { width:100%; text-align:center; font-size:14px !important; }
+.marquee div { animation: marquee 10s linear infinite; }
+.project-name {border-bottom:5px solid #EBA607; width:80%;height:93%; position:relative;}
+.project-name .sponsor-name { bottom:20px;position:absolute;font-family:Georgia, 'Times New Roman', Times, serif;font-size:16px;line-height:20px;color:#fff; }
+.profile-pic-container { width:250px; height:250px; display:block; }
+.profile-pic { width:100%; height:100%; object-fit:cover; object-position:50% 0%; }
+.email { margin-top:10px; font-family:Georgia, "Times New Roman", Times, serif !important; font-size:12px !important;  }
+.guide { margin-top:25px; font-family:Georgia, "Times New Roman", Times, serif !important; font-size:12px !important;  }
+.sponsor { margin-top:10px; font-family:Georgia, "Times New Roman", Times, serif !important; font-size:12px !important;  }
+/* Global
+============================================================================ */
+.discipline { color:#fff; margin-bottom:20px; }
+.discipline-name h3 { font-family: 'Source Sans Pro'; font-weight:700; text-transform:none; color:#fff; font-size:32px; letter-spacing:1px; margin:15px 0; }
+.about-discipline { font-size:14px; }
+.about-discipline .col-sm-6 { padding-right:35px; }
+.about-discipline p { margin:20px 0; }
+.card { border-top:1px solid #FC0; background-color:#000; height:110px; width:92%; }
+.card img { object-fit: cover;  width:110px; height:110px; }
+.card .project-title { margin-left:15px; top:10px; font-family: 'Source Sans Pro'; font-weight:900;  font-size:18px; line-height:22px; padding-right:50px; }
+.card .student-name { margin-left:15px; bottom:0px; font-size:14px; }
+
+.student-list1 .project-title {float:left;position:relative;display:inline-block;height:100px;left:15px;width:65%;border:1px solid #F00}
+
+/* Project Listing
+============================================================= */
+.keyword1 { padding:15px 0; font-family: 'Source Sans Pro'; letter-spacing:2px; font-size:14px; border-bottom:1px solid #FC0; text-align:center; }
+.keyword1 label { color:#FC0; }
+.keyword { padding:15px 0; font-family: 'Source Sans Pro'; letter-spacing:2px; font-size:14px; border-bottom:1px solid #FC0; text-align:center; }
+.project-list label { color:#FC0; }
+.project-list img {  object-fit: cover;  width:25%; height:25%; display:inline-block; }
+/*.student-list1 img {  object-fit: cover;  width:50%; height:50%; }*/
+.project-list .card { border-top:1px solid #FC0; background-color:#000; }
+.short-desc { display: inline-block; width: 200px; height: 110px; margin-left: 10px; font-family: 'Source Sans Pro'; }
+.short-desc h3 { position:relative; font-family: 'Source Sans Pro'; font-size:18px; }
+.short-desc h2 {   font-family: 'Source Sans Pro'; font-weight:normal; }
+
+.profile-detail { padding-left: 20px; position: relative; left: 20px; top: 0px;}
+.profile-detail h3 { font-family: 'Source Sans Pro'; color:#fff; font-size:28px; line-height:32px; }
+
+/* Footer
+======================================================= */
+.footer { width: 100%; height:60px; background-color: #000000; border-top:1px solid #FC0; line-height:60px; }
+.footer a { color:#fff; display:inline-block; width:5%; text-align:center; font-size:14px; }
+.box { width:90%; border-top:1px solid #FC0; }
+
+.profile_container{
+ width:100px;height:100px;display:block;
+
+}
+
+.profile_img{
+  width:100%;height:100%;
+  object-fit:cover;object-position:50% 0%;
+}
+.profile-desc { float:left;position:relative;display:inline-block;height:100px;left:20px; }
+.pnm { position:absolute;bottom:20px;font-size:20px; font-family: 'Source Sans Pro';font-weight:700;line-height:20px; width:160px; color:#fff; }
+.snm { position:absolute;bottom:0px;font-size:12px; color:#fff; width:160px; }
+.snm a { color:#fff; font-size:14px; }
+
+/* Credtis
+================ */
+.credits { margin-bottom:50px; }
+.credits h1 { font-family: 'Source Sans Pro'; font-weight:bold; color:#FC0; font-size:24px; border-bottom:5px solid #FC0; }
+.credit-category { margin-top:35px; color:#fff; font-size:17px; line-height:25px; padding-right:10px; }
+.credit-category p:nth-child(1) { font-weight:bold; font-size:18; }
+.mobile-menu { display:none; }
+.desktop-menu { display:block; position: relative; margin-left: 10%; }
+.home-banner { display:block; }
+/* MEDIA QURIES
+============================================================= */
+@media only screen and (min-width: 50px) and (max-width: 479px){
+.home-banner { display:none; }
+.desktop-menu { display:none; }
+.mobile-menu { display:block; }
+.molbie-overlay { z-index:10; width:100%; min-height:100%; background-color:#fff; top:0; left:0; position:absolute; display:none; padding-bottom:25px; }
+.container-fluid { width:100% }
+.container { width:90%; }
+.student-detail { padding-left: 0px; }
+img { width:100%; height:auto; }
+.footer { height:auto; }
+.sl .col-sm-4 { margin-top:10px; }
+.aa { display:block; }
+.ml5, .ml35 { margin-left:0px; }
+.box { width:100%; margin-top:10px; }
+/*.student-list1 img {  object-fit: cover;  width:50%; height:50%; }*/
+.discipline-cover { display:none; }
+.student-list1 .project-title {left:5px;}
+.student-list .col-sm-4 { width:95% }
+.project-name { border-bottom:none; }
+.project-name .sponsor-name { position:relative; bottom:0px; margin-top:10px; }
+.profile-detail h3 { margin-left:0px; }
+.profile-detail { left:0px; }
+.home .position-absolute { position:relative !important; }
+.quote { top:10px; }
+.message-from p:nth-child(1) { margin-top:20px; }
+.message p:nth-child(1) { margin-top:10px }
+.home h3 { margin-top:20px; text-align:center; }
+.yd img, .nid img { width:50%; height:auto; }
+.footer a { display:block; width:100%; line-height:30px; }
+.credits .offset-1 { margin-left:0px; }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){	
+.container-fluid { width:100% }
+.container { width:100%; }
+img { width:100%; height:auto; }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){	
+}
