@@ -130,7 +130,7 @@ body { font-family: 'Source Sans Pro', sans-serif; color:#000; box-sizing:border
 .credit-category { margin-top:35px; color:#fff; font-size:17px; line-height:25px; padding-right:10px; }
 .credit-category p:nth-child(1) { font-weight:bold; font-size:18; }
 .mobile-menu { display:none; }
-.desktop-menu { display:block; position: relative; margin-left: 10%; }
+.desktop-menu { display:block; position: relative; margin-left: 8%; }
 .home-banner { display:block; }
 /* MEDIA QURIES
 ============================================================= */
